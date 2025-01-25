@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create a remove button for the task
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
-    removeButton.className = "remove-btn";
+    removeButton.classList.add("remove-btn");
 
     // Add event listener to the remove button
     removeButton.addEventListener("click", () => {
